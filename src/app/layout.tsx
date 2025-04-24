@@ -10,7 +10,7 @@ const poiretOne = Poiret_One({
 )
 
 export const metadata: Metadata = {
-  title: "Afiq's Photorgraphy Portfolio",
+  title: "Afiq's Photography Portfolio",
   description: "Remember me by the pictures that I take.",
 };
 
