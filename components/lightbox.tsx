@@ -26,9 +26,7 @@ export default function Lightbox({ src, alt, className, width, height}: { src: s
         onClick={openLightbox}
       />
       <dialog ref={dialogRef} onClick={closeLightbox} className="m-auto max-w-screen max-h-screen border-0 p-0 bg-transparent w-[90vw] h-[90vh] backdrop:bg-black/80 focus:outline-none outline-none" >
-        <div>
-            <Image fill objectFit='contain' src={src} alt="Enlarged view"/>
-        </div>
+            <Image onClick={e => e.stopPropagation()} fill objectFit='contain' src={src} alt="Enlarged view" className='max-w-fit max-h-fit translate-x-[-50%] translate-y-[-50%]' style={{left: '50%', top: '50%'}}/>
       </dialog>
     </>
   );
