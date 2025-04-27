@@ -1,0 +1,35 @@
+// app/components/Lightbox.tsx
+'use client';  // ← ensures this file is a Client Component
+
+import { useRef } from 'react';
+import Image from 'next/image';
+
+export default function Lightbox({ src, alt, className, width, height}: { src: string, alt: string, className?: string, width: number, height: number }) {
+  const dialogRef = useRef<HTMLDialogElement>(null);
+
+  const openLightbox = () => {
+    if (dialogRef.current) dialogRef.current.showModal();
+  };
+
+  const closeLightbox = () => {
+    if (dialogRef.current) dialogRef.current.close();
+  };
+
+  return (
+    <>
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        className={`cursor-pointer ${className}`}
+        onClick={openLightbox}
+      />
+      <dialog ref={dialogRef} onClick={closeLightbox} className="m-auto max-w-screen max-h-screen border-0 p-0 bg-transparent w-[90vw] h-[90vh] backdrop:bg-black/80 focus:outline-none outline-none">
+        <div>
+            <Image fill objectFit='contain' src={src} alt="Enlarged view"/>
+        </div>
+      </dialog>
+    </>
+  );
+}

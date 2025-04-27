@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: var(--font-poiret-one), Arial, Helvetica, sans-serif;
 }
+
+/* globals.css or component-scoped CSS */
+.lightbox-dialog {
+  border: none;
+  padding: 0;
+  background: transparent;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.lightbox-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
