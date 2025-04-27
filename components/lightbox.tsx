@@ -25,7 +25,7 @@ export default function Lightbox({ src, alt, className, width, height}: { src: s
         className={`cursor-pointer ${className}`}
         onClick={openLightbox}
       />
-      <dialog ref={dialogRef} onClick={closeLightbox} className="m-auto max-w-screen max-h-screen border-0 p-0 bg-transparent w-[90vw] h-[90vh] backdrop:bg-black/80 focus:outline-none outline-none">
+      <dialog ref={dialogRef} onClick={closeLightbox} className="m-auto max-w-screen max-h-screen border-0 p-0 bg-transparent w-[90vw] h-[90vh] backdrop:bg-black/80 focus:outline-none outline-none" >
         <div>
             <Image fill objectFit='contain' src={src} alt="Enlarged view"/>
         </div>

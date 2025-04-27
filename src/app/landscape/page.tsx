@@ -1,5 +1,4 @@
 import NavigationBar from "../../../components/navigation"
-import Image from "next/image"
 import Footer from "../../../components/footer"
 import Lightbox from "../../../components/lightbox"
 

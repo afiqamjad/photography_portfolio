@@ -1,6 +1,5 @@
 import Footer from "../../../components/footer";
 import NavigationBar from "../../../components/navigation";
-import Image from "next/image";
 import Lightbox from "../../../components/lightbox";
 
 export default function People() {
