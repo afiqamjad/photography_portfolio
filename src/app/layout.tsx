@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Poiret_One } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const poiretOne = Poiret_One({
   weight: "400",
@@ -27,6 +28,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Analytics/>
       </body>
     </html>
   );
