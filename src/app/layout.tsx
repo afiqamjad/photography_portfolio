@@ -14,6 +14,10 @@ const poiretOne = Poiret_One({
 export const metadata: Metadata = {
   title: "Afiq's Photography Portfolio",
   description: "Remember me by the pictures that I take.",
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+  },
 };
 
 export const viewport: Viewport = {
