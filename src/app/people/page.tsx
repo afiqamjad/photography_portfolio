@@ -29,6 +29,7 @@ export default function People() {
                       <Lightbox src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541558/afiqPort-2_kqsnpc.jpg" width={350} height={350} alt=""/>
                       <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745542156/afiqPort-13_hlu1gj.jpg" width={350} height={350} alt=""/>
                       <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541306/afiqPort-1_u0rrrc.jpg" width={350} height={350} alt=""/>
+                      <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1746036488/mop-1_uja2wv.jpg" width={350} height={350} alt=""/>
                     </div>
                   </div>
             <Footer/>

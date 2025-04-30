@@ -13,7 +13,7 @@ export default function Home() {
           <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541587/bin_khairir_port-2_by4uty.jpg" width={350} height={350} alt=""/>
           <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541401/afiqPort-3_yig5yh.jpg" width={350} height={350} alt=""/>
           <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541839/afiqPort-8_wsgmcr.jpg" width={350} height={350} alt=""/>
-          <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541137/afiqPort-9_bkjelk.jpg" width={350} height={350} alt=""/>
+          <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1746036488/mop-1_uja2wv.jpg" width={350} height={350} alt=""/>
         </div>
         <div className="flex flex-col items-evenly h-[100%] w-[23%]">
           <Lightbox src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745517235/portfolioAfiq-2_repk7w.jpg" width={350} height={350} alt=""/>
@@ -35,6 +35,7 @@ export default function Home() {
           <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541306/afiqPort-1_u0rrrc.jpg" width={350} height={350} alt=""/>
           <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541922/afiqPort-7_a9avdo.jpg" width={350} height={350} alt=""/>
           <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541534/afiqPort-11_rwdcuw.jpg" width={350} height={350} alt=""/>
+          <Lightbox className="mt-[5.5%]" src="https://res.cloudinary.com/dfcqlwnxu/image/upload/v1745541137/afiqPort-9_bkjelk.jpg" width={350} height={350} alt=""/>
         </div>
       </div>
       <Footer/>
